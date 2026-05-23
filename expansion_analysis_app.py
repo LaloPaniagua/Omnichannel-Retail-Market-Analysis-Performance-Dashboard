@@ -8,8 +8,8 @@ def fetch_expansion_analysis():
     # 1. Configuration & Setup
     # =========================================================================
     # Secure API key storage and file path definitions. 
-    # TODO for Production: Move API key to an environment variable (.env) for security compliance.
-    CENSUS_API_KEY = "6d0f38310f6a8148a35638bbcb5a7f9b10bbd2cd"
+    # TODO: Replace CENSUS_API_KEY value with US Census Bureau API Key, said key can be obtained at https://api.census.gov/data/key_signup.html
+    CENSUS_API_KEY = "thisisanexample"
     csv_file = "StoresPerState.csv"
     competitor_csv = "Retail Competitor Store Counts 2026.csv"
 
